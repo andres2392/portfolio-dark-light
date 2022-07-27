@@ -1316,7 +1316,7 @@ img {
 
   .services__container{
     grid-template-columns: repeat(3, 250px);
-    justify-content: left;
+    justify-content: center;
   }
 
   .services__title,
