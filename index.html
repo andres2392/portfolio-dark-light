@@ -83,16 +83,7 @@
                                 <i class="uil uil-github-alt"></i>
                             </a>
                         </div>
-                        <div class="home__data">
-                            <h1 class="home__title">Hi, I'm Andres</h1>
-                            <h3 class="home__subtitle">Full-Stack Developer</h3>
-                            <p class="home__description">I’m a reliable engineer who provides a clear, attractive, 
-                                and user-friendly design and also helps you promote your goals. In today's world visual content solves many business objectives, 
-                                and I know how to manage this tool with the expected results.</p>
-                            <a href="#contact" class="button button--flex">
-                                Contact Me <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
+
                         <div class="home__img">
                             <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <mask id="mask0" mask-type="alpha">
@@ -111,7 +102,21 @@
                                 </g>
                             </svg>
                         </div>
+                        
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Andres</h1>
+                            <h3 class="home__subtitle">Full-Stack Developer</h3>
+                            <p class="home__description">I’m a reliable engineer who provides a clear, attractive, 
+                                and user-friendly design and also helps you promote your goals. In today's world visual content solves many business objectives, 
+                                and I know how to manage this tool with the expected results.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+
+                        
                     </div>
+                    <!--==== Scroll Button
                     <div class="home__scroll">
                         <a href="#about" class="home__scroll-button button--flex">
                             <i class="uil uil-mouse-alt home__scroll-mouse"></i>
@@ -119,6 +124,7 @@
                             <i class="uil uil-arrow-down home__scroll-arrow"></i>
                         </a>
                     </div>
+                        -->
                 </div>
                 
             </section>
@@ -571,7 +577,7 @@
                     <div class="services__content">
                         <div>
                             <i class="uil uil-pen services__icon"></i>
-                            <h3 class="services__title">Mobile Application <br> Developer</h3>
+                            <h3 class="services__title">Mobile App<br> Developer</h3>
                         </div>
                         <span class="button button--flex button--small button--link services__button">
                             View more
@@ -798,7 +804,7 @@
                             </div>
                         </div>
                     </div>
-                    <form action="" class="contact__form grid">
+                    <form class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
@@ -817,12 +823,18 @@
                             <label for="" class="contact__label">Message</label>
                             <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
+                            <button class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </button>
+                       <!-- FORM SEND EMAIL
                         <div>
                             <a href="#" class="button button--flex">
                                 Send Message
                                 <i class="uil uil-message button__icon"></i>
                             </a>
                         </div>
+                        -->
                     </form>
                 </div> 
             </section>
@@ -873,5 +885,8 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+        
+        <!--==================== SEND MAILS SMTPJS ====================-->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
     </body>
 </html>
